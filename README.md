@@ -1,2 +1,2 @@
 # Asibot
-primul meu proiect
+Charles Leclerc wdc 2026
