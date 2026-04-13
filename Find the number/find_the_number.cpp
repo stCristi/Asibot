@@ -13,7 +13,7 @@ int main() {
     int high = 100;
 
     while (attempt < attemptnumber) {
-        cout << "Guess the number (" << low -1 << "<->" << high +1 << "): ";
+        cout << "Guess the number (" << low  << "<->" << high << "): ";
         cin >> number;
 
         if (number < 1 || number > 100) {
