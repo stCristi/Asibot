@@ -7,13 +7,13 @@ int main() {
     int number = 0, attempt = 0, attemptnumber = 10;
     cout<<"Let the game begin!"<<endl;
     srand(time(0));
-    int randomnumber = rand() % 100 + 1;
+    int randomnumber = rand() % 101;
 
     int low = 1;
     int high = 100;
 
     while (attempt < attemptnumber) {
-        cout << "Guess the number (" << low << "<->" << high << "): ";
+        cout << "Guess the number (" << low -1 << "<->" << high +1 << "): ";
         cin >> number;
 
         if (number < 1 || number > 100) {
